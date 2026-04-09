@@ -1,7 +1,11 @@
+import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div> Hello kitty </div>
+    <div>
+       <h2> Hello kitty </h2>
+    <UserButton/>
+    </div>
   );
 }
